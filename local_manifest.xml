@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Removals -->
+  <remove-project name="LineageOS/android_hardware_qcom_display" /> 
+  <remove-project name="LineageOS/android_hardware_qcom_bt" /> 
+  
+  <!-- Device -->
+  <project name="Toomoch/android_device_lge_bullhead" path="device/lge/bullhead" remote="github" revision="lineage-17.1" />
+
+  <!-- Kernel -->
+  <project name="Toomoch/android_kernel_lge_bullhead" path="kernel/lge/bullhead" remote="github" revision="lineage-17.1" />
+
+  <!-- Vendor -->
+  <project name="Toomoch/android_vendor_lge_bullhead" path="vendor/lge/bullhead" remote="github" revision="lineage-17.1" />
+  
+  <!-- Patches -->
+  <project name="Toomoch/android_hardware_qcom_display" path="hardware/qcom/display" remote="github" revision="lineage-17.1" />
+  <project name="Toomoch/android_hardware_qcom_bt" path="hardware/qcom/bt" remote="github" revision="lineage-17.1" />
+
+</manifest>
