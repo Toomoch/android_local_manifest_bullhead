@@ -5,7 +5,7 @@ Building 17.1 for Nexus 5X
 ---------------
 
 ```
-1. mkdir -p mkdir -p ~/android/lineage && cd ~/android/lineage
+1. mkdir -p ~/android/lineage && cd ~/android/lineage
 
 2. Initialize your local repository using the LineageOS trees with a command
   repo init --depth=1 -u https://github.com/LineageOS/android.git -b lineage-17.1
