@@ -4,6 +4,7 @@
   <!-- Removals -->
   <remove-project name="LineageOS/android_hardware_qcom_display" /> 
   <remove-project name="LineageOS/android_hardware_qcom_bt" /> 
+  <remove-project name="LineageOS/android_hardware_qcom_gps" /> 
   
   <!-- Device -->
   <project name="Toomoch/android_device_lge_bullhead" path="device/lge/bullhead" remote="github" revision="lineage-17.1" />
@@ -17,5 +18,6 @@
   <!-- Patches -->
   <project name="Toomoch/android_hardware_qcom_display" path="hardware/qcom/display" remote="github" revision="lineage-17.1" />
   <project name="Toomoch/android_hardware_qcom_bt" path="hardware/qcom/bt" remote="github" revision="lineage-17.1" />
+  <project name="Toomoch/android_hardware_qcom_gps" path="hardware/qcom/gps" remote="github" revision="lineage-17.1" />
 
 </manifest>
