@@ -14,7 +14,6 @@ repo init --depth=1 -u https://github.com/LineageOS/android.git -b lineage-17.1
 Clone this repo:
 ```
 git clone https://github.com/Toomoch/android_local_manifests_bullhead .repo/local_manifests -b lineage-17.1
-
 ```
 Sync LineageOS trees:
 ```
@@ -24,7 +23,7 @@ repo sync --no-tags --no-clone-bundle --force-sync -c -j8
 ```
 . build/envsetup.sh
 lunch lineage_bullhead-userdebug 
-make -j8 bacon
+mka bacon
 ```
 **or**
 
@@ -32,7 +31,7 @@ make -j8 bacon
 ```
 . build/envsetup.sh
 lunch lineage_bullhead_blod-userdebug 
-make -j8 bacon
+mka bacon
 ```
 
 
